@@ -20,3 +20,5 @@
  * DBIx::Class::Helpers
 ^
  * DBIx::Class::DeploymentHandler
+^
+ * drinkup

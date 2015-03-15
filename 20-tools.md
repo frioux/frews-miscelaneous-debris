@@ -127,4 +127,5 @@
  * (`corn`)[https://github.com/frioux/corn/blob/master/app.psgi]
 ^
  * Docker (Linode vs OVH)
-
+^
+ * gitolite
