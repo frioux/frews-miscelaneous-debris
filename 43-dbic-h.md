@@ -1,6 +1,6 @@
 %title: µDBIx::Class::Helpers
 %author: fREW Schmidt
-%date: 2014-09-22
+%date: 2015-03-19
 
 -> DBIx::Class::Helpers <-
 ==========================
