@@ -169,3 +169,5 @@ In Row
 
 -> QUESTIONS? <-
 ================
+
+(you can ask about DBIx::Class::DeploymentHandler if you want)
