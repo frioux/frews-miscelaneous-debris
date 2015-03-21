@@ -67,15 +67,54 @@
 -------------
 
  * Callbacks
+^
+      sub {
+         ...
+         sub {
+            ...
+            sub { ... }
+         }
+      }
+^
  * Futures
+^
+      my $f = $http->do_request(...)
+         ->then(sub { ... })
+         ->then(sub { ... })
+         ->then(sub { ... })
 
 ------------------------
 
--> Dumb Platitudes <-
+-> Futures 2 <-
+-------------
+
+ * Callbacks are the MOST BASIC and will likely need to be around forever
+^
+   * everything else is an abstraction of these
+^
+ * Futures
+^
+   * represent a single outstanding action from a single direction
+^
+   * you have to store them
+
+------------------------
+
+-> Audience <-
+--------------
+
+ * Noobs? Don't listen
+^
+ * Pros? You already know
+^
+ * Prospective Employers... No idea
+
+------------------------
+
+-> Worthless Platitudes <-
 ---------------------
 
  * Be Careful
-^
  * Be Safe
 ^
  * Be Afraid
