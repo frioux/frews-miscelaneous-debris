@@ -9,7 +9,7 @@
 ^
  * Was recently asked about cool stuff I'd made
 ^
- * Thankful that on of those things is OSS
+ * Thankful that one of those things is OSS
 ^
  * List of cool things in no particular order
 
@@ -62,3 +62,11 @@
 
  * Efficient set based searching
  https://github.com/frioux/drinkup/blob/master/lib/DU/Schema/ResultSet/Drink.pm#L164
+^
+ * Fundamentally based on:
+    * What drinks can be made from the ingredients in a given RS
+    * Plus a range of other ingredients
+^
+ * eg if I want to go to the store but only buy a few things:
+    * what drinks can I make if I am ok with buying 1 to 3 ingredients
+    * `$drinks->ineq($inventory_rs, 1, 3)`
