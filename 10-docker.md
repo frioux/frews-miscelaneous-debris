@@ -2,11 +2,11 @@
 %author: fREW Schmidt
 %date: 2015-03-19
 
--> Docker <-
+-> Docker: Agenda <-
 ============
 
- * Brief History
  * What even is this thing
+ * Brief History
  * In the small
  * In the large
  * Misc
@@ -103,7 +103,7 @@
 ^
    * unless you already have CI
 ^
-   * [mock linking](https://github.com/frioux/httpd)
+   * [mock linking](https://github.com/frioux/httpd) helps
 ^
 * each needed port and volume is a moving part
 ^
