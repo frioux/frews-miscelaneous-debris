@@ -2,14 +2,49 @@
 %author: fREW Schmidt
 %date: 2015-03-19
 
--> Dogma / Async <-
-===================
+-> µDogma: Agenda <-
+====================
+
+ * Simplicity
+^
+ * Async
+^
+ * Dogma
+^
+All linked, not sure why
+
+------------------------
+
+-> Simplicity <-
+================
 
  * `DBIx::Class` is great
  * `Catalyst` is great
- * `ExtJS` is great...
+ * `ExtJS` is great
 ^
- * But often, they are all overkill
+ * But sometimes, they are all overkill
+
+------------------------
+
+-> Simplicity <-
+----------------
+
+ * project runs only one DB query → `DBIx::Class` is overkill
+^
+ * project with only 5 endpoints → `Catalyst` is overkill
+^
+ * etc
+
+------------------------
+
+-> Simplicity <-
+----------------
+
+ * Big frameworks can make you feel more productive
+^
+ * ... while making you less productive
+^
+ * ... don't use them for everything!
 
 ------------------------
 
@@ -26,8 +61,21 @@
 
 ------------------------
 
+-> Right tool for the job <-
+----------------------------
+
+ * Vanilla DBI (or maybe at least `DBIx::Connector`) is fine!
+^
+ * Small web frameworks are fine!
+^
+ * Again, µServices can be of benefit here
+^
+   * ... use what works in each context
+
+------------------------
+
 -> Async <-
------------
+===========
 
  * async is simpler than polling
 ^
@@ -36,10 +84,15 @@
  * async can definitely add complexity
 ^
    * Hide it with OO!
+^
+ * Async requires a lot of mental reconfiguration
+^
+   * ... but that reconfiguration more accurately matches the real world
 
 -------------------------
 
 -> Async vs Sync <-
+-------------------
 
  * Sync
 
@@ -51,7 +104,8 @@
 ^
       * Write contention
 ^
- * Async
+
+* Async
 
      writer → MQ → reader
 
@@ -97,13 +151,25 @@
    * represent a single outstanding action from a single direction
 ^
    * you have to store them
+^
+ * There are other abstractions that barely exist in perl
+^
+   * [Check this out](https://github.com/kriskowal/gtor) for a really great overview
 
 ------------------------
 
--> Audience <-
---------------
+-> The End <-
+=============
 
- * Noobs? Don't listen
+^
+(maybe)
+
+------------------------
+
+-> Dogma: Audience <-
+=====================
+
+ * Noobs? Don't listen (maybe you can't even hear me...)
 ^
  * Pros? You already know
 ^
@@ -112,11 +178,18 @@
 ------------------------
 
 -> Worthless Platitudes <-
----------------------
+--------------------------
 
  * Be Careful
  * Be Safe
-^
+
+-------------------------
+
+-> Worthless Platitudes <-
+--------------------------
+
+ * ...
+ * ...
  * Be Afraid
 
 -------------------------
