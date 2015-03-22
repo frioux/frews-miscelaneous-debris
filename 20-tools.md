@@ -53,7 +53,7 @@
 ^
  * `unimpaired`
 ^
- * Custom textobjs: `textobj-between`, `textobj-underscore`, `textobj-lastpat`
+ * Custom textobjs: `textobj-between`, `textobj-underscore`, `textobj-lastpat`, `textobj-entire`
 ^
  * `visual-star-search`
 
