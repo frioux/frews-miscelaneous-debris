@@ -9,9 +9,7 @@
 ^
  * Async
 ^
- * Dogma
-^
-All linked, not sure why
+linked, not sure why
 
 ------------------------
 
@@ -160,45 +158,3 @@ All linked, not sure why
 
 -> The End <-
 =============
-
-^
-(maybe)
-
-------------------------
-
--> Dogma: Audience <-
-=====================
-
- * Noobs? Don't listen (maybe you can't even hear me...)
-^
- * Pros? You already know
-^
- * Prospective Employers... No idea
-
-------------------------
-
--> Worthless Platitudes <-
---------------------------
-
- * Be Careful
- * Be Safe
-
--------------------------
-
--> Worthless Platitudes <-
---------------------------
-
- * ...
- * ...
- * Be Afraid
-
--------------------------
-
--> Not Dumb fREWitudes <-
--------------------------
-
- * Nothing is True and Everything is permissible
-^
- * That Which Compiles is True
-^
- * "Considered Harmful" Considered Harmful
