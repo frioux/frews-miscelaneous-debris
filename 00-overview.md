@@ -11,12 +11,12 @@
 ^
    * zsh, vi, awesome, smaller stuff
 ^
- * Dogma
-^
-   * Simplicity, Async
-^
  * DBIx::Class
 ^
  * DBIx::Class::Helpers
 ^
  * drinkup
+^
+ * Dogma
+^
+   * Simplicity, Async
