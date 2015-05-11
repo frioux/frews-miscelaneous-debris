@@ -1,6 +1,6 @@
 %title: µDogma
 %author: fREW Schmidt
-%date: 2015-03-19
+%date: 2015-05-11
 
 -> µDogma: Agenda <-
 ====================
