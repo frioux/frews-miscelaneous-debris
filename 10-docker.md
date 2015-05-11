@@ -110,6 +110,10 @@
 * each needed port and volume is a moving part
 ^
 * basically means that image is "incomplete"
+^
+   * people are working on this (Powerstrip, Flocker, etc)
+^
+* the internet is slow, [use squid](https://github.com/jpetazzo/squid-in-a-can)
 
 --------------------
 
