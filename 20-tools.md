@@ -106,9 +106,13 @@
 
  * xmonad - haskell
 ^
- * weather
+ * weather (Docker!)
 ^
- * win+u
+ * win+u (Perl!)
+   * https://github.com/frioux/dotfiles/blob/240a/bin/alluni.pl
+   * https://github.com/frioux/dotfiles/blob/240a/bin/showuni
+   * https://github.com/frioux/dotfiles/blob/240a/bin/store-hist
+   * https://github.com/frioux/dotfiles/blob/240a/bin/prepend-emoji-hist
 
 -----------------------
 
