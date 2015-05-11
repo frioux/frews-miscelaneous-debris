@@ -14,6 +14,14 @@
 
 ---------------------------
 
+-> ::Schema::Verifier::* <-
+----------------------------------
+
+ * C3 - ensure all classes use C3
+ * Parent - ensure base classes set
+
+---------------------------
+
 -> ::ResultSet::CorrelateRelationship <-
 ----------------------------------------
 
